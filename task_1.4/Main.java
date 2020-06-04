@@ -11,14 +11,9 @@ public class Solution {
 
 package com.company;
 
-class Solution {
+public class Main {
     public static int number = 25;
-
     public static void main(String[] args) {
-        int a,b;
-        a = 25;
-        b = 25;
-        int mult = a*b;
-        System.out.println("25 * 25 = "+mult);
+        System.out.println(number*number);
     }
 }
