@@ -11,14 +11,9 @@ package com.company;
 
 public class Main {
     public static int min(int a, int b, int c) {
-        int m;
-        if (a <= b & a <= c)
-            m = a;
-        if (b <= a & b <= c)
-            m = b;
-        else 
-            m = c;
-        return m;
+        if ((a>b) && (b>c)) return c;
+        else if ((a>b) && (b<c)) return b;
+        return a;
     }
 
     public static void main(String[] args) {
