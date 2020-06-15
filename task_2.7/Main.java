@@ -6,13 +6,13 @@
 15
 */
 
-
+}
 public class Main {
     public static void main(String[] args) {
-        System.out.println(sumDigitsInNumber(5,4,6));
+        System.out.println(sumDigitsInNumber(546));
     }
 
-    public static int sumDigitsInNumber(int a, int b, int c) {
-        return a+b+c;
+    public static int sumDigitsInNumber(int number) {
+        return number%10+(number/10)%10+(number/100)%10;
     }
 }
